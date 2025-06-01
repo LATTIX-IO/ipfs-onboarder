@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ipfs-onboarder"
+version = "0.1.0"
+description = "IPFS onboarding service"
+authors = ["Example <example@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.103"
+structlog = "^23.1"
+httpx = "^0.24"
+uvicorn = "^0.22"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
